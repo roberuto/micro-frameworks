@@ -1,0 +1,61 @@
+.header {
+  padding: 24px;
+  background: #0000aa;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.animation-wrapper {
+  padding: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.animation {
+  color: #ff0000;
+  font-weight: 900;
+  font-size: 24px;
+  animation: slide 12s linear infinite;
+}
+
+.counter {
+  padding-top: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.counter div:first-child {
+  display: inline-block;
+  background: rgb(17, 17, 17);
+  background: linear-gradient(135deg, rgba(17, 17, 17, 1) 15%, rgba(88, 88, 88, 1) 88%);
+  padding: 4px;
+}
+
+.holder {
+  overflow: hidden;
+}
+.news {
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

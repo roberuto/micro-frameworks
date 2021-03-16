@@ -1,0 +1,43 @@
+.content {
+  height: 100%;
+  background: #ffffff;
+  color: #000000;
+  margin: 0 24px;
+  font-family: "Comic Sans MS", Arial, Helvetica;
+}
+
+.header {
+  padding: 4px 0;
+  background: #00ff00;
+  color: #0000ff;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+}
+
+.title {
+  padding: 8px 0;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.placeholder {
+  position: relative;
+  height: 120px;
+  width: 320px;
+  padding: 8px;
+  margin: 8px;
+  flex-shrink: 0;
+  font-size: 12px;
+  background: #ffff80;
+}
+
+.placeholder button {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}

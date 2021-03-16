@@ -1,0 +1,15 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --stream"
+  },
+  "author": "Robert Goik <robert.goik@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100%;
+  background: #ffff00;
+  color: #000000;
+  margin: 0 24px;
+  font-family: "Comic Sans MS", Arial, Helvetica;
+}
+
+.header {
+  padding: 4px 0;
+  background: #0000ff;
+  color: #00ff00;
+  text-align: center;
+}
+
+.content {
+  padding: 24px;
+}
+
+.content div:first-child {
+  text-align: right;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+}
